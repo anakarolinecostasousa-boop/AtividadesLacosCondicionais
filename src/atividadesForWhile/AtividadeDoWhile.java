@@ -14,10 +14,10 @@ public class AtividadeDoWhile {
 			numero = sc.nextInt();
 
 			if (numero > 0) {
-				soma += numero; // acumula apenas positivos
+				soma += numero; 
 			}
 
-		} while (numero != 0); // repete até digitar zero
+		} while (numero != 0); 
 
 		System.out.println("A soma dos números positivos é: " + soma);
 
